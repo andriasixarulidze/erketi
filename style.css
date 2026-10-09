@@ -1,0 +1,36 @@
+/* Custom CSS styling for Kvemo Erketi website */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fira GO', sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #047857;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #065f46;
+}
+
+/* Smooth transitions for navigation and buttons */
+a, button {
+    transition: all 0.25s ease-in-out;
+}
